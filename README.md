@@ -4,7 +4,7 @@ A content-based Movie Recommendation System built using **Python, Machine Learni
 
 <p align="center">
 
-  **🚀 [LIVE DEMO – TRY THE APPLICATION]([YOUR_STREAMLIT_APP_URL](https://movie-recommendation-system-by-sadaf.streamlit.app/))**
+  🚀 **[LIVE DEMO – TRY THE APPLICATION](https://movie-recommendation-system-by-sadaf.streamlit.app/)**
 
 </p>
 
@@ -19,7 +19,7 @@ The application provides an interactive interface where users can select a movie
 ## ✨ Features
 
 - **Movie Selection:** Choose a movie from an extensive movie collection.
-- **Personalized Recommendations:** Get the top 5 similar movie recommendations.
+- **Movie Recommendations:** Get the top 5 similar movie recommendations.
 - **Content-Based Filtering:** Uses a precomputed similarity matrix to identify similar movies.
 - **Movie Posters:** Fetches movie posters dynamically using the TMDB API.
 - **Interactive Interface:** Built using Streamlit for a simple and user-friendly experience.
@@ -34,19 +34,17 @@ The application provides an interactive interface where users can select a movie
 | NumPy | Numerical operations |
 | Scikit-learn | Machine learning and similarity calculations |
 | Streamlit | Web application interface |
-| Pickle | Saving and loading trained model data |
+| Pickle | Saving and loading model data |
 | Requests | Fetching movie information from TMDB API |
 | TMDB API | Retrieving movie posters |
 
 ## ⚙️ How It Works
 
-The recommendation system follows these steps:
-
 1. **Dataset Loading:** Loads movie information from the TMDB 5000 Movies and Credits datasets.
 2. **Feature Processing:** Uses processed movie information to represent movies as feature vectors.
-3. **Similarity Calculation:** Calculates similarity between movies using a similarity matrix.
+3. **Similarity Calculation:** Uses a similarity matrix to calculate relationships between movies.
 4. **Movie Selection:** The user selects a movie through the Streamlit interface.
-5. **Recommendation Generation:** The system identifies the selected movie's index and retrieves the five most similar movies.
+5. **Recommendation Generation:** Identifies the selected movie and retrieves the five most similar movies.
 6. **Poster Fetching:** Uses the TMDB API to fetch and display posters of recommended movies.
 
 ## 📂 Project Structure
@@ -80,9 +78,7 @@ The dataset includes:
 - Keywords
 - Cast
 - Crew
-- Overview and other movie details
-
-The dataset is used for processing movie information and generating recommendations.
+- Movie overview and other details
 
 ## 💻 Installation and Setup
 
@@ -106,7 +102,7 @@ cd Movie_Recommendation_System
 pip install -r requirements.txt
 ```
 
-**4. Configure the TMDB API key**
+**4. Configure your TMDB API key**
 
 Create a `.streamlit/secrets.toml` file for local development:
 
@@ -114,9 +110,9 @@ Create a `.streamlit/secrets.toml` file for local development:
 TMDB_API_KEY = "YOUR_TMDB_API_KEY"
 ```
 
-Make sure not to upload your API key or secrets file to GitHub.
+Do not upload your API key or secrets file to GitHub.
 
-**5. Run the Streamlit application**
+**5. Run the application**
 
 ```bash
 streamlit run app.py
@@ -124,24 +120,23 @@ streamlit run app.py
 
 The application will open in your default browser.
 
-## 🌐 Deployment
+## 🌐 Live Deployment
 
 The application is deployed using **Streamlit Community Cloud**.
 
-🚀 **Live Application:** [Click Here to Open Movie Recommendation System]([YOUR_STREAMLIT_APP_URL](https://movie-recommendation-system-by-sadaf.streamlit.app/))
+🚀 **[Click Here to Open the Live Movie Recommendation System](https://movie-recommendation-system-by-sadaf.streamlit.app/)**
 
 ## 📸 Application Preview
 
 The application provides an interactive movie selection interface with recommended movie posters and a customised visual design.
-
-<!-- Add your application screenshots here -->
 
 ## 👩‍💻 Author
 
 **Sadaf**
 
 - GitHub: [@Sadaf0011](https://github.com/Sadaf0011)
-- Project: [Movie Recommendation System](https://github.com/Sadaf0011/Movie_Recommendation_System)
+- Project Repository: [Movie Recommendation System](https://github.com/Sadaf0011/Movie_Recommendation_System)
+- Live Application: [Movie Recommendation System](https://movie-recommendation-system-by-sadaf.streamlit.app/)
 
 ---
 
