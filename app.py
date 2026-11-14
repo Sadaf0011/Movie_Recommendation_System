@@ -4,7 +4,7 @@ import requests
 
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 st.title('Movie recommendation system')
-movies = pickle.load(open('moviess.pkl','rb'))
+movies = pickle.load(open('movies.pkl','rb'))
 movie_list = movies['title'].values.tolist() #data fram pass ni kr skte, isliye list m convert kiya hei
 
 selected_movie = st.selectbox(
